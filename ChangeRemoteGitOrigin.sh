@@ -5,4 +5,7 @@ rm README.md -f
 # now we push the code for the first time 
 # to your repo on the master branch
 git push -u origin master
+# commit & push the removal of the README file
+git commit -a -m "removed README file."
+git push
 
