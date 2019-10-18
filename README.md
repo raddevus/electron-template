@@ -1,5 +1,6 @@
 # electron-template
-Electron Project Template - provides basic default Electron app and includes ability to build EXEs for Win, Linux, Mac.
+![x](https://i.stack.imgur.com/KxhwM.png) Electron Project Template - provides basic default Electron app and includes ability to build EXEs for Win, Linux, Mac.
+
 
 <h2>What Do You Get?</h2>
 Here's what you get when you use this template.
@@ -23,10 +24,9 @@ Here's how you can use this template to create a new Electron project that is:
 <li>run the  ChangeRemoteGitOrigin.sh shell script: <code>&gt;./ChangeRemoteGitOrigin.sh &lt;YOUR-GITHUB-URL&gt;</code></li>
 <li>Running that script changes the git remote origin to point at your GitHub repo so your commits will be made there (not the electron-template project)</li>
 <li>Alter the values in your <code>package.json</code> file to match your project -- these items are UPPERCASED in the package.json template.</li>
-<li>Alter your app.png (app icon found in <code>/build</code> directory. The default project icon is a red X. Can be done any time.</li>
+<li>Alter your app.png (app icon found in <code>/build</code> directory. The default project icon (3-color box with a red X) -- shown at top of this readme). Image change can be done any time.</li>
 <li>Commit your <code>package.json</code> changes and push them to GitHub (changes will be pushed to your new repo).</li>
 </ol>
-
 <h2>Run Your App</h2>
 <ol>
 <li>Install all node packages: <code>/&gt;npm install</code>  </li>
