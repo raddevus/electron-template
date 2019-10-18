@@ -22,26 +22,24 @@
     "electron": "^6.0.12",
     "electron-builder": "^21.2.0"
   },
-  "dependencies": {
-
-  },
+  "dependencies": {},
   "build": {
-      "appId": "com.YOUR-WEB-SITE.YOUR-APP-NAME",
-      "copyright": "Copyright © 2019 YOUR-NAME",
-      "productName": "APP-NAME",
-      "electronVersion": "6.0.10",
-      "asar": true,
-      "directories": {
-          "output": "dist",
-          "buildResources": "build"
-      },
-      "linux": {
-          "category": "Utility.Passwords",
-          "icon": "YOUR-PNG-APPICON",
-          "executableName": "EXE-NAME-IF-DIFF-THAN-APP"
-      },
-      "win":{
-          "icon": "build/YOUR-PNG-APPICON"
-      }
+    "appId": "com.YOUR-WEB-SITE.YOUR-APP-NAME",
+    "copyright": "Copyright © 2019 YOUR-NAME",
+    "productName": "APP-NAME",
+    "electronVersion": "6.0.10",
+    "asar": true,
+    "directories": {
+      "output": "dist",
+      "buildResources": "build"
+    },
+    "linux": {
+      "category": "Utility.Passwords",
+      "icon": "app.png",
+      "executableName": "EXE-NAME-IF-DIFF-THAN-APP"
+    },
+    "win": {
+      "icon": "build/app.png"
+    }
   }
 }
